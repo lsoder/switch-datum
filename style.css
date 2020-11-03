@@ -1,4 +1,18 @@
+html { height: 100%;}
 body {
     margin: 0;
     background-color: lightpink;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 1rem;
 }
